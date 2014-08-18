@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<flurry>
+		<iOS>MSPR45GN3F4J6ZHWQSK9</iOS>
+		<Android>CD6HVZP9JMDGGBR2Z6YX</Android>
+	</flurry>
+	<chartboost>
+		<iOS>
+			<id>53d69f0c1873da7cb7720b17</id>
+			<signature>a6c97dc70bd05517ff8da2845e78f63b74a2524d</signature>
+		</iOS>
+		<Android>
+		<id>53d8f53bc26ee4250e7496fe</id>
+		<signature>be7e43b4fee1d425b274109033d9cacb363460f8</signature>
+		</Android>
+	</chartboost>
+	<inapp>
+		<removeAd>com.consumedmedia.retro2048removeads</removeAd>
+		<pack1>com.consumedmedia.retro2048.pack1</pack1>
+		<pack2>com.consumedmedia.retro2048.pack2</pack2>
+		<pack3>com.consumedmedia.retro2048.pack3</pack3>
+	</inapp>
+	<leaderboard>
+		<iOS>com.consumedmedia.retro2048leaderboard</iOS>
+		<Android>CgkIibe8m_AcEAIQBw</Android>
+	</leaderboard>
+	<admob>
+		<iOS>ca-app-pub-1217244353134124/3460495893</iOS>
+		<Android>a15330bd81bdda0</Android>
+	</admob>
+	<playhaven>
+		<fullScreenTag>main_menu</fullScreenTag>
+	</playhaven>
+	<link>
+		<iOS>https://itunes.apple.com/us/app/2048-retro/id904006628</iOS>
+		<Android>https://play.google.com/store/apps/details?id=com.consumedmedia.retro2048</Android>
+	</link>
+	<share>
+		<facebook>
+			<title>2048 Retro</title>
+			<message>I scored %score% points on 2048 Retro, a game where you join numbers to score high! @2048_Retro_game</message>
+			<picture>https://fbcdn-photos-e-a.akamaihd.net/hphotos-ak-xaf1/t39.2081-0/p128x128/10173490_1445912625695655_70164083_n.png</picture>
+		</facebook>
+		<twitter>I scored %score% points on 2048 Retro, a game where you join numbers to score high! @2048_Retro_game </twitter>
+	</share>
+</settings>

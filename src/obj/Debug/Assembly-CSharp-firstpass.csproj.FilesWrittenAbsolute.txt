@@ -1,0 +1,14 @@
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/pavelkivalin/2048Boobs/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/pavelkivalin/2048Boobs/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/UnityEngine.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/UnityEditor.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/HOTween.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/LitJSON.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/Mono.Cecil.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/nunit.framework.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/Unity.DataContract.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/GPGSUtils.dll
+/Users/pavelkivalin/2048Boobs/Temp/bin/Debug/IFacebook.dll
