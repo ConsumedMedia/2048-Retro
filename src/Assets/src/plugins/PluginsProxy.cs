@@ -1,16 +1,11 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using PlayHaven;
 using Chartboost;
-using System;
 
 public class PluginsProxy : MonoBehaviour 
 {
     static public bool INTERNET_AVAILABLE = true;
     static public string FLURRY_KEY = "";
-
-    public SoomlaProxy soomlaProxy;
 
     private bool _isEnabled = false;
     private bool _isInited = false;
@@ -85,8 +80,6 @@ public class PluginsProxy : MonoBehaviour
         CBBinding.cacheMoreApps();
 
         PlayHavenManager.instance.ContentPreloadRequest(Settings.instance.playhavenFullscreen);
-
-        openStore();
     }
 
     void OnApplicationQuit()
@@ -125,27 +118,6 @@ public class PluginsProxy : MonoBehaviour
         #endif
     }
 
-    public void restoreTransactions()
-    {
-        if (!_isEnabled)
-            return;
-        soomlaProxy.restoreTransactions();
-    }
-
-    public void openStore()
-    {
-        if (!_isEnabled)
-            return;
-        soomlaProxy.openStore();
-    }
-
-    public void closeStore()
-    {
-        if (!_isEnabled)
-            return;
-        soomlaProxy.closeStore();
-    }
-
     public void moreGames() 
     {
         if (!_isEnabled)
@@ -161,13 +133,5 @@ public class PluginsProxy : MonoBehaviour
 
         CBBinding.cacheMoreApps();
     }
-
-    public void buyMarketItem(string itemId)
-    {
-        if (!_isEnabled)
-            return;
-        soomlaProxy.buyItem(itemId);
-    }
-
 }
 

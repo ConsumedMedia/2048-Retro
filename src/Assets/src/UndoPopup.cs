@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using Assets.src.Billing;
+using UnityEngine;
 
 public class UndoPopup : MonoBehaviour, IScreen
 {
@@ -7,20 +7,6 @@ public class UndoPopup : MonoBehaviour, IScreen
     public tk2dUIItem pack1Btn;
     public tk2dUIItem pack2Btn;
     public tk2dUIItem pack3Btn;
-
-    private PluginsProxy _plugins;
-    public PluginsProxy plugins
-    {
-        get
-        {
-            if (_plugins == null)
-            {
-                _plugins = GameObject.Find("PluginsController").GetComponent<PluginsProxy>();
-            }
-
-            return _plugins;
-        }
-    }
 
     private GameManager _gameManager;
 
@@ -45,27 +31,22 @@ public class UndoPopup : MonoBehaviour, IScreen
 
     void buyPack1()
     {
-        plugins.buyMarketItem(SoomlaStore.UNDO_PACK_ID_1);
+        AppBilling.RequestPurchase(MarketLot.UndoPack1);
     }
 
     void buyPack2()
     {
-        plugins.buyMarketItem(SoomlaStore.UNDO_PACK_ID_2);
+        AppBilling.RequestPurchase(MarketLot.UndoPack2);
     }
 
     void buyPack3()
     {
-        plugins.buyMarketItem(SoomlaStore.UNDO_PACK_ID_3);
+        AppBilling.RequestPurchase(MarketLot.UndoPack3);
     }
 
     void continueGame()
     {
         gameManager.hideUndopopup();
-    }
-
-    void Update()
-    {
-
     }
 
     public void show()
