@@ -15,6 +15,7 @@ namespace Assets.src.Leaderboards
 
         private void Authenticate(Action successCallback)
         {
+			Debug.Log ("Leaderboard authentification trying.");
             Social.localUser.Authenticate(success =>
             {
                 Debug.Log("Leaderboard authentification success:" + success);

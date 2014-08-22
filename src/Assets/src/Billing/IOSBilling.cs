@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Assets.src.Billing
 {
@@ -29,8 +31,8 @@ namespace Assets.src.Billing
 			Debug.Log("IOBilling. Can make payments:" + _canMakePayments);
             if (_canMakePayments)
             {
-                Debug.Log("iOSBilling. Request Product data:" + MarketLot.Coins5000Lot.ProductIOSIdentifier);
-                StoreKitBinding.requestProductData(new[] {MarketLot.Coins5000Lot.ProductIOSIdentifier});
+                Debug.Log("iOSBilling. Request Product data:");
+				StoreKitBinding.requestProductData(MarketLot.AllLots.Select(l => l.ProductIOSIdentifier).ToArray());
             }
 		}
 
@@ -46,7 +48,7 @@ namespace Assets.src.Billing
 		private void PurchaseSuccessful(StoreKitTransaction transaction)
 		{
 			Debug.Log("IOSBilling. Purchased product: " + transaction);
-		    CompletePurchase(MarketLot.Coins5000Lot);
+			CompletePurchase(MarketLot.AllLots.Single(l => l.ProductIOSIdentifier == transaction.productIdentifier));
 		}
 
         #region Events
