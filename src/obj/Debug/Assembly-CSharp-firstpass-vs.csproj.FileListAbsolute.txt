@@ -15,3 +15,4 @@ D:\sources\2048-Retro\src\Temp\bin\Debug\HOTween.xml
 D:\sources\2048-Retro\src\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
 D:\sources\2048-Retro\src\obj\Debug\Assembly-CSharp-firstpass.dll
 D:\sources\2048-Retro\src\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\sources\2048-Retro\src\Temp\bin\Debug\UnityEngine.UI.dll

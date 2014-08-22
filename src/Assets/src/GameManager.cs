@@ -3,15 +3,6 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
-
-    #if UNITY_IOS && !UNITY_EDITOR
-    static public GamecenterProxy gamecenter = new IOSGamecenterProxy();
-    #elif UNITY_ANDROID && !UNITY_EDITOR
-    static public GamecenterProxy gamecenter = new AndroidGamecenterProxy();
-    #else
-    static public GamecenterProxy gamecenter = new GamecenterProxy();
-    #endif
-
     static private bool _GAME_RUNNING;
     static public bool GAME_RUNNING
     {
@@ -54,7 +45,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        gamecenter.init();
         GAME_RUNNING = false;
         game.hide();
         game.init();

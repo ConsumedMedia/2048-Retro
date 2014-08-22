@@ -23,3 +23,5 @@ D:\sources\2048-Retro\src\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 D:\sources\2048-Retro\src\Temp\bin\Debug\Assembly-CSharp.pdb
 D:\sources\2048-Retro\src\Temp\bin\Debug\HOTween.xml
 D:\sources\2048-Retro\src\obj\Debug\Assembly-CSharp-Editor.pdb
+D:\sources\2048-Retro\src\Temp\bin\Debug\UnityEditor.UI.dll
+D:\sources\2048-Retro\src\Temp\bin\Debug\UnityEngine.UI.dll
