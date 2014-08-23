@@ -21,7 +21,8 @@ namespace Assets.src.Leaderboards
             GPGManager.submitScoreSucceededEvent += GPGManager_submitScoreSucceededEvent;
 
             Debug.Log("Try silent authentication.");
-            PlayGameServices.attemptSilentAuthentication();
+            //PlayGameServices.attemptSilentAuthentication();
+            PlayGameServices.authenticate();
 #else
             Debug.Log("Error. AndroidLeaderboard call for not android platform.");
 #endif
