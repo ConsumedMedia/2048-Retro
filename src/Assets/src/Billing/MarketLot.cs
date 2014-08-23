@@ -23,8 +23,8 @@ namespace Assets.src.Billing
 		    {
 		        Id = "RemoveAds",
 		        Price = 0.99f,
-                ProductIOSIdentifier = "com.aconsumedmedia.retro2048removeads",
-                ProductAndroidIdentifier = "com.aconsumedmedia.retro2048removeads"
+                ProductIOSIdentifier = "com.consumedmedia.retro2048removeads",
+                ProductAndroidIdentifier = "com.consumedmedia.retro2048removeads"
 		    };
 
 		    UndoPack1 = new MarketLot

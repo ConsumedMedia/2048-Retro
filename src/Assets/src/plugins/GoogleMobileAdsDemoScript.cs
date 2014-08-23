@@ -43,11 +43,9 @@ public class GoogleMobileAdsDemoScript : MonoBehaviour
         }
         else
         {
-            GoogleMobileAdsPlugin.CreateBannerView(adUnitID,
-                GoogleMobileAdsPlugin.AdSize.Banner,
-                BannerAtTop);
+            GoogleMobileAdsPlugin.CreateBannerView(adUnitID, GoogleMobileAdsPlugin.AdSize.Banner, BannerAtTop);
             Debug.Log("Created Banner View");
-            
+
             GoogleMobileAdsPlugin.RequestBannerAd(TestAds, extras);
             Debug.Log("Requested Banner Ad");
         }
